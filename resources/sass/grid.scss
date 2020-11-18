@@ -1,0 +1,166 @@
+*{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+}
+img{
+    width: 100%;
+}
+body{
+    color: $BGdark;
+}
+#app{
+    margin: 0;
+    position: relative;
+    width: 100%;
+}   
+    .full-section, .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        >*{
+            margin-bottom: 5%;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        >h1, >h2, >h3, >h4{
+            width: 100%;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 4vh;
+            .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-8, .col-10{
+                width: 100%;
+                flex: {
+                    grow: 1;
+                    shrink: 1;
+                    basis: 100%;
+                }
+                padding: {
+                    right: 1vw;
+                    left: 1vw;
+                }
+                margin-bottom: 3%;
+            }
+            .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-8, .col-lg-10{
+                width: 100%;
+                padding: {
+                    right: 1vw;
+                    left: 1vw;
+                }
+                flex: {
+                    grow: 1;
+                    shrink: 1;
+                    basis: 100%;
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+            }
+            .col-2{
+                &:nth-child(2n){
+                    margin-right: 0;
+                }
+            }
+            .col-3{
+                &:nth-child(3n){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .full-section{
+        width: 100%;
+        background: {
+            size: cover;
+            repeat: no-repeat;
+            position: center
+        }
+        padding: {
+            top: 3vh;
+            right: 5vw;
+            bottom: 3vh;
+            left: 5vw;
+        }
+    }
+    .section{
+        width: 100vw;   
+        padding: {
+            top: 1vh;
+            right: 5vw;
+            bottom: 1vh;
+            left: 5vw;
+        }
+        margin: {
+            top: 0;
+            right: auto;
+            bottom: 4vh;
+            left: auto;
+        }
+    }
+
+    .form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .group{
+            width: 100%;
+            margin-bottom: 2vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            label{
+                margin-bottom: 1vh;
+            }
+            .must{
+                color: $danger;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: .7rem;
+            }
+            .input{
+                flex: 1;                
+            }
+            .btn{
+                width: auto;
+                margin-left: auto;
+            }
+        }
+    }
+    @media #{$portrait}{
+        .full-section, .section{
+            .row{
+                .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-8, .col-10{
+                    margin-right: 3%;
+                    &:last-child(){
+                        margin-right: 0;
+                        margin-bottom: 0;
+                    }
+                }
+                .col-2{
+                    flex-basis: 47%!important;
+                }
+                .col-3{
+                    flex-basis: 30%!important;
+                    &:nth-child(3n){
+                        margin-right: 0;
+                    }
+                }
+                .col-10{
+                    flex-basis: 100%!important;
+                    margin-right: 0;
+                }
+            }
+        }
+    }

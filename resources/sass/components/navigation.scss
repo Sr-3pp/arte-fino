@@ -1,0 +1,116 @@
+.navigation{
+    width: 100%;
+    background-color: $white;
+    z-index: 4; 
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    .section{
+        padding: {
+            top: 3%;
+            right: 3%;
+            bottom: 3%;
+            left: 3%;
+        }
+        margin-bottom: 0;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        padding: {
+            top: 1vh;
+            bottom: 1vh;
+        }
+        .brand {
+            width: 20vw;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            img{
+                width: 100%;
+            }
+        }
+        .item-list{
+            list-style: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            transform: translateX(100%);
+            overflow: hidden;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            transition: all .2s ease;
+            opacity: 0;
+            width: 80vw;
+            z-index: 1;
+            background-color: $white;
+            .item{
+                flex: 1;
+                display: flex;
+                padding-left: 5%;
+                svg{
+                    width: 10%;
+                    margin-right: 5%;
+                }
+                min-height: 8%;
+                height: 10%;
+                .link{
+                    border-bottom: {
+                        style: solid;
+                        color: $dark;
+                        width: 1px;
+                    }
+                    width: 100%;
+                    text-decoration: none;
+                    color: $dark;
+                    height: calc(50px);
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    padding: {
+                        top: 1vh;
+                        bottom: 1vh;
+                    }
+                }
+                &.active{
+                    .link{
+                        color: $BGgreen
+                    }
+                }
+                &[s-action=close]{
+                    padding: 5%;
+                    svg{
+                        width: 10%;
+                        margin-left: auto;
+                    }
+                }
+            }
+            &.active{
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        .show-menu{
+            width: 10vw;
+            display: block;
+            background: none;
+            color: $BGgreen;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+        }
+    }
+    &[s-mode=half]{
+        .content{
+            width: 100%;
+            margin: 0 auto;
+            padding: {
+                right: 2vw;
+                left: 2vw;
+            }
+        }
+    }
+}

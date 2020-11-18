@@ -1,0 +1,31 @@
+[s-action=move-up]{
+    -webkit-animation-name: moveUp; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    animation-name: moveUp;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    @-webkit-keyframes moveUp {
+        from {transform: translateY(0);}
+        to {transform: translateY(-20%);}
+    }
+      
+      /* Standard syntax */
+    @keyframes moveUp {
+        from {transform: translateY(0);}
+        to {transform: translateY(-20%);}
+    }
+}
+
+@media #{$small-desktop}{
+    @-webkit-keyframes moveUp {
+        from {transform: translateY(0);}
+        to {transform: translateY(-35%);}
+    }
+      
+      /* Standard syntax */
+    @keyframes moveUp {
+        from {transform: translateY(0);}
+        to {transform: translateY(-35%);}
+    }
+}

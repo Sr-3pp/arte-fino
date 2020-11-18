@@ -1,0 +1,33 @@
+.searchbar{
+    position: relative;
+    .result-list{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 100%;
+        left: 0;
+        z-index: 2;
+        max-height: 0;
+        list-style: none;
+        background-color: $white;
+        opacity: 0;
+        box-shadow: 10px 10px 20px rgba(#000000, .5);
+        transition: all .2s ease;
+        &.active{
+            max-height: 500px;
+            opacity: 1;
+        }
+        >li{
+            padding: 3%;
+            cursor: pointer;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            color: $BGgreen;
+            transition: all .2s ease;
+            &:hover{
+                background-color: #dbdbdb;
+            }
+        }
+    }
+}

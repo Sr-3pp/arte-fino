@@ -1,0 +1,87 @@
+[s-sec=modal-button]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    &.modal{
+        position: fixed;
+        top: 0;
+        left: 50vw;
+        height: 85vh;
+        transform: translate(-50%, -100%);
+        background-color: $white;
+        box-shadow: 10px 10px 0px rgba(#000, .0);
+        z-index: 4;
+        transition: all .2s ease;
+        padding: {
+            top: 5%;
+            bottom: 2%;
+        }
+        margin-bottom: 0;
+        &.section{
+            width: 90vw;
+        }
+        &.active{
+            transform: translate(-50%, 0);
+            box-shadow: 10px 10px 40px rgba(#000, .5);
+        }
+        .modal-header{
+            display: flex;
+            margin-bottom: 2%;
+            .subtitle{
+                margin-bottom: 0;
+                display: flex;
+                align-items: center;
+                flex: {
+                    grow: 1;
+                    shrink: 0;
+                    basis: 90%;
+                }
+            }
+            .btn{
+                background-color: transparent;
+                color: $BGgreen;
+                font-size: 2rem;
+                font-weight: bold;
+                flex: {
+                    grow: 0;
+                    shrink: 0;
+                    basis: 10%;
+                }
+            }
+        }
+        .modal-body{
+            height: 100%;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+    }
+}
+
+@media #{$portrait}{
+    .section{
+        &.modal{
+            .modal-body{
+                .form{
+                    width: 54%;
+                    margin: 0 auto;
+                    background-color: $BGgreen;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+@media #{$small-desktop}{
+    .section{
+        &.modal{
+            height: 95vh;
+        }
+    }
+}

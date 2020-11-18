@@ -1,0 +1,70 @@
+.product-panel{
+    .row{
+        .product{
+            flex: {
+                grow: 0;
+                shrink: 0;
+                basis: 30%;
+            }
+            margin-right: 3%;
+            &:nth-child(3n){
+                margin-right: 0;
+            }
+        }
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3% 0;
+    >*{
+        margin-right: 3%;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+.slides-panel{
+    display: flex;
+    flex-wrap: wrap;
+    .slide{
+        flex: {
+            grow: 0;
+            shrink: 0;
+            basis: 30%;
+        }
+        margin-right: 3%;
+            &:nth-child(3n){
+                margin-right: 0;
+            }
+        .preview{
+            >figure{
+                height: 20vw;
+                overflow: hidden;
+                margin-bottom: 10%;
+            }
+        }
+    }
+}
+.pdv-panel{
+    >article{
+        .form{
+
+        }
+    }
+}
+
+.gallery-panel{
+    .cards{
+       .card{
+           margin-bottom: 20px;
+           .card-image{
+               height: 300px;
+               overflow: hidden;
+           }
+           .card-content{
+               position: relative;
+           }
+       }
+    }
+}

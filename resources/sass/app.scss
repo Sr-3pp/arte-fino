@@ -1,0 +1,29 @@
+//@import "fonts/fonts.scss";
+
+// Variables
+@import "variables";
+@import "functions";
+
+@import "fonts/fonts.scss";
+
+//Components
+
+@import "components/navigation.scss";
+@import "components/carousel.scss";
+@import "components/dropList.scss";
+@import "components/location-list.scss";
+@import "components/modalButton.scss";
+@import "components/sidebar.scss";
+@import "components/searchbar.scss";
+@import "components/slider.scss";
+@import "components/wizzard.scss";
+
+@import "animations.scss";
+@import "general.scss";
+@import "grid.scss";
+@import "site.scss";
+@import "store.scss";
+@import "responsive.scss";
+@import "transitions.scss";
+@import "panel.scss";
+

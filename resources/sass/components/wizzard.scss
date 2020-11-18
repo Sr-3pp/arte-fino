@@ -1,0 +1,51 @@
+.wizzard{
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1%;
+        li{
+            flex: {
+                grow: 1;
+                shrink: 1;
+                basis: 10%;
+            }
+            padding: 3%;
+        }
+    }
+    .start{
+        display: flex;
+        >article{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex: {
+                grow: 1;
+                shrink: 1;
+                basis: 70%;
+            }
+            svg{
+                flex: {
+                    grow: 1;
+                    shrink: 1;
+                    basis: 30%;
+                }
+            }
+            .subtitle{
+                flex: {
+                    grow: 1;
+                    shrink: 1;
+                    basis: 70%;
+                }
+
+            }
+        }
+        >button{
+            flex: {
+                grow: 1;
+                shrink: 1;
+                basis: 30%;
+            }
+        }
+    }
+}

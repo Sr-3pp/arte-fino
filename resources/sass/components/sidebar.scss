@@ -1,0 +1,51 @@
+[s-sec=sidebar]{
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >ul{
+        >li{
+            padding: 5% 10%;
+            margin: 10% 0;
+            width: 110px;
+            position: relative;
+            cursor: pointer;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transform: translateX(-60%);
+            background-color: #bebebe;
+            transition: transform .2s ease;
+            &:hover{
+                transform: translateX(0) 
+            }
+            &.active{
+                background-color: $BGgreen;
+                color: $white;
+            }
+        }
+    }
+}
+
+@media #{$portrait}{
+    [s-sec=sidebar]{
+        
+    }
+}
+@media #{$small-desktop}{
+    [s-sec=sidebar]{
+
+    }
+}
+@media #{$large-desktop}{
+    [s-sec=sidebar]{
+
+    }
+}

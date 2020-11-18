@@ -1,0 +1,11 @@
+.drop-list{
+    width: 100%;
+    list-style: none;
+    li{
+        padding: 1%;
+        display: flex;
+        button{
+            margin-left: auto;
+        }
+    }
+}

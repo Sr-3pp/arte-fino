@@ -1,0 +1,113 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+
+    .slider--inner {
+        display: flex;
+        width: 200%;
+        position: relative;
+        animation: slider 20s linear infinite;
+        transition: all .2s ease;
+        transform: translateX(-6%);
+
+        &:hover{
+            animation-play-state: paused;
+        }
+        &.fast{
+            animation-direction: linear;
+        }
+        &.prev{
+            animation-direction: reverse;
+        }
+        .slide-inner {
+            float: left;
+            width: 50%;
+            display: flex;
+            .item{
+                width: 25vw;
+                height: 25vw;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: -1;
+                }
+            }
+          }
+          @keyframes slider {
+            0% { left: 0; }
+            100% { left: -100%; }
+          }
+      }
+      .control{
+        position: sticky;
+        padding: 1% 8%;
+        width: 20%;
+        background:{
+            color: transparent;
+        }
+        z-index: 4;
+        border: none;
+        &.next{
+            right: 0;
+        }
+        &.prev{
+            left: 0;
+        }
+    }
+  }
+
+.slick-slider{
+    position: relative;
+    display: flex!important;
+    .slick-arrow{
+        width: 5%;
+        background-color: transparent;
+    } 
+    .slick-list{
+        padding-left: 2vw;
+        .slick-track{
+            display: flex;
+            .slick-slide{
+                margin-right: 2vw;
+                height: auto;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    &.slick-dotted{
+        flex-direction: column;
+        .slick-dots{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 50%;
+            align-self: center;
+            margin-top: 3vw;
+            list-style: none;
+            li{
+                background-color: $BGgreen;
+                width: 5px;
+                height: 5px;
+                transition: all .35s ease;
+                button{
+                    display: none;
+                }
+                &.slick-active{
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+ }
+  

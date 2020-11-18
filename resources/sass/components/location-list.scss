@@ -1,0 +1,122 @@
+.location-list{
+    position: relative;
+    .slick-arrow{
+        color: $BGgreen;
+        font-size: 2.5rem;
+        &.slick-next{
+            right: -5%;
+        }
+        &.slick-prev{
+            left: -5%;
+        }
+        i{
+            color: currentColor;
+        }
+    }
+    >.location-slick{
+        display: flex;
+        list-style: none;
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        cursor: grab;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        &.dragging{
+            cursor: grabbing;
+        }
+        &.smooth{
+            scroll-behavior: smooth;
+        }
+        .slick-slide{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            >svg{
+                width: 30%;
+                margin-bottom: 5%;
+            }
+            .category{
+                margin-bottom: 8%!important;
+                color: $BGgreen;
+                text-align: center;
+            }
+            .subtitle{
+                text-align: center;
+                margin-bottom: 8%!important;
+                display: flex;
+                align-items: center;
+            }
+            >.btn{
+                background-color: transparent;
+                color: $BGgreen;
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .modal{
+        .row{
+            .col-2{
+                align-items: flex-start;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                >svg{
+                    width: 30%;
+                    margin-bottom: 3%;
+                }
+                .form{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media #{$portrait}{
+    .location-list{
+        >.btn{
+            &.right{
+                right: -5%;
+            }
+            &.left{
+                left: -5%;
+            }
+        }
+        >ul{
+            >ol{
+                min-width: inherit;
+            }
+        }
+    }
+}
+@media #{$small-desktop}{
+    .modal{
+        .row{
+            .col-2{
+                align-items: center;
+                >svg{
+                    width: 40%;
+                }
+                .form{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+@media #{$full}{
+    .location-list{
+        >.btn{
+            &.right{
+                right: -10%;
+            }
+            &.left{
+                left: -10%;
+            }
+        }
+    }
+}

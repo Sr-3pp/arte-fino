@@ -38,7 +38,7 @@
             </p>
             <ul class="left-content">
                 <li class="buen-fin">
-                    <img src="/img/christmas.jpeg" alt="">
+                    <img src="/img/14_febrero.jpeg" alt="">
                 </li>
                 <li>
                     <a class="btn link" href="tel:5564068012"><icon name="tel"></icon>55 6406 8012</a>

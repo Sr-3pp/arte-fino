@@ -94,7 +94,7 @@
                     <article class="col-3">
                         <icon name="tel"></icon>
                         <p class="category">Teléfono</p>
-                        <a href="tel:5568778328" class="text">55 6406 8012</a>
+                        <a href="tel:5568778328" class="text">55 6877 8328</a>
                     </article>
                     <article class="col-3">
                         <icon name="heart"></icon>

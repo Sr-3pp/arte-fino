@@ -37,11 +37,11 @@
                 POR QUÉ IR A VERLO, SI LO PUEDES TENER EN CASA
             </p>
             <ul class="left-content">
-                <li class="buen-fin">
+                <!-- <li class="buen-fin">
                     <img src="/img/14_febrero.jpeg" alt="">
-                </li>
+                </li> -->
                 <li>
-                    <a class="btn link" href="tel:5564068012"><icon name="tel"></icon>55 6406 8012</a>
+                    <a class="btn link" href="tel:5568778328"><icon name="tel"></icon>55 6877 8328</a>
                 </li>
                 <li>
                     <a class="btn link" href="mailto:contacto@artefinomexicano.com"><icon name="envelope"></icon>contacto@artefinomexicano.com</a>
@@ -77,7 +77,7 @@
                     <a class="btn link" target="_blank" href="https://www.instagram.com/artefinomexicano_"><icon name="instagram"></icon></a>
                 </li>
                 <li>
-                    <a class="btn link" href="tel:5564068012"><icon name="whats"></icon></a>
+                    <a class="btn link" href="tel:5568778328"><icon name="whats"></icon></a>
                 </li>
             </ul>
         </section>
@@ -94,7 +94,7 @@
                     <article class="col-3">
                         <icon name="tel"></icon>
                         <p class="category">Teléfono</p>
-                        <a href="tel:5564068012" class="text">55 6406 8012</a>
+                        <a href="tel:5568778328" class="text">55 6406 8012</a>
                     </article>
                     <article class="col-3">
                         <icon name="heart"></icon>
@@ -102,7 +102,7 @@
                         <p class="text">
                             <a href="https://www.facebook.com/Arte-Fino-Mexicano-108519977149536"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://twitter.com/ArtFinoMexicano"><i class="fab fa-twitter"></i></a>
-                            <a href="tel:5564068012"><i class="fab fa-whatsapp"></i></a>
+                            <a href="tel:5568778328"><i class="fab fa-whatsapp"></i></a>
                         </p>
                     </article>
                 </div>

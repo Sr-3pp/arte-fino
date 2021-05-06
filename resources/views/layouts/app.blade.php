@@ -37,9 +37,9 @@
                 POR QUÉ IR A VERLO, SI LO PUEDES TENER EN CASA
             </p>
             <ul class="left-content">
-                <!-- <li class="buen-fin">
-                    <img src="/img/14_febrero.jpeg" alt="">
-                </li> -->
+                <li class="buen-fin">
+                    <img src="/img/mothers_day.png" alt="">
+                </li>
                 <li>
                     <a class="btn link" href="tel:5568778328"><icon name="tel"></icon>55 6877 8328</a>
                 </li>

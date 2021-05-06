@@ -41171,8 +41171,8 @@ var render = function() {
               _c("small", [
                 _c(
                   "a",
-                  { staticClass: "btn", attrs: { href: "tel:5564068012" } },
-                  [_vm._v("5564068012")]
+                  { staticClass: "btn", attrs: { href: "tel:5568778328" } },
+                  [_vm._v("55 6877 8328")]
                 )
               ]),
               _vm._v(" "),
@@ -60207,8 +60207,8 @@ webpackContext.id = "./src/assets/svg sync recursive ./!./node_modules/xml-loade
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /srv/http/arte-fino/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /srv/http/arte-fino/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /srv/http/php/arte-fino/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /srv/http/php/arte-fino/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

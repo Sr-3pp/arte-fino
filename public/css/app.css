@@ -1901,6 +1901,7 @@ body {
 
 [s-sec=top-bar] > ul.left-content li.buen-fin {
   width: 6rem;
+  max-height: 50px;
 }
 
 [s-sec=top-bar] > ul.left-content li.buen-fin img {

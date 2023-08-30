@@ -33,9 +33,6 @@
     <div id="app">
         <overlay></overlay>
         <section s-sec="top-bar" class="section">
-            <p class="text">
-                POR QUÉ IR A VERLO, SI LO PUEDES TENER EN CASA
-            </p>
             <ul class="left-content">
                 <li class="buen-fin">
                     <img src="/img/mothers_day.png" alt="">
@@ -48,9 +45,6 @@
                 </li>
             </ul>
             <ul class="right-content">
-                <li class="stay-home">
-                    <img src="/img/stay_home.jpeg" alt="">
-                </li>
                 <li>
                     <a class="btn link" target="_blank" href="https://listado.mercadolibre.com.mx/_CustId_439718824">
                         <svg class="svg-icon" version="1.1" x="0px" y="0px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">

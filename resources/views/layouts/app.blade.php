@@ -34,9 +34,9 @@
         <overlay></overlay>
         <section s-sec="top-bar" class="section">
             <ul class="left-content">
-                <li class="buen-fin">
+                <!-- li class="buen-fin">
                     <img src="/img/mothers_day.png" alt="">
-                </li>
+                </li -->
                 <li>
                     <a class="btn link" href="tel:5568778328"><icon name="tel"></icon>55 6877 8328</a>
                 </li>

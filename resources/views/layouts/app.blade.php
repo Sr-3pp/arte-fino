@@ -38,7 +38,7 @@
                     <img src="/img/mothers_day.png" alt="">
                 </li -->
                 <li>
-                    <a class="btn link" href="tel:5568778328"><icon name="tel"></icon>55 6877 8328</a>
+                    <a class="btn link" href="tel:5570721322"><icon name="tel"></icon>55 7072 1322</a>
                 </li>
                 <li>
                     <a class="btn link" href="mailto:contacto@artefinomexicano.com"><icon name="envelope"></icon>contacto@artefinomexicano.com</a>
@@ -88,7 +88,7 @@
                     <article class="col-3">
                         <icon name="tel"></icon>
                         <p class="category">Teléfono</p>
-                        <a href="tel:5568778328" class="text">55 6877 8328</a>
+                        <a href="tel:5570721322" class="text">55 7072 1322</a>
                     </article>
                     <article class="col-3">
                         <icon name="heart"></icon>
@@ -96,7 +96,7 @@
                         <p class="text">
                             <a href="https://www.facebook.com/Arte-Fino-Mexicano-108519977149536"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://twitter.com/ArtFinoMexicano"><i class="fab fa-twitter"></i></a>
-                            <a href="tel:5568778328"><i class="fab fa-whatsapp"></i></a>
+                            <a href="tel:5570721322"><i class="fab fa-whatsapp"></i></a>
                         </p>
                     </article>
                 </div>

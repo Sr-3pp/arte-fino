@@ -43,7 +43,7 @@
                 </p>
                 <ul>
                     <small>
-                        <a href="tel:5568778328" class="btn">55 6877 8328</a>
+                        <a href="tel:5570721322" class="btn">55 7072 1322</a>
                     </small>
                     <small>
                         <a href="mailto:contacto@artefinomexicano.com" class="btn">contacto@artefinomexicano.com</a>
